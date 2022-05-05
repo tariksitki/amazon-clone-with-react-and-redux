@@ -1,0 +1,55 @@
+@import "~bootstrap/scss/bootstrap";
+
+.App {
+  background-color: black;
+  margin: 2rem auto;
+  width: 75rem;
+
+  .carousel {
+    .carousel-control-next {
+      height: 15rem;
+      width: 5rem;
+      .carousel-control-next-icon {
+        background-color: inherit;
+        color: black;
+      }
+    }
+    .carousel-control-prev {
+      height: 15rem;
+      width: 5rem;
+      .carousel-control-prev-icon {
+        background-color: inherit;
+        color: black;
+      }
+    }
+
+    .carousel-caption {
+       background-color: initial;
+       width: 100%;
+       left: 0;
+       bottom: 0;
+       padding: 0;
+      .card-group {
+        background-color: inherit;
+        gap: 1rem;
+
+        .card {
+          text-align: center;
+          padding:  0rem;
+          height: 20rem;
+          .card-title {
+            background-color: white;
+          }
+
+          .card-img-top {
+            width: 15rem;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+    .carousel-indicators{
+        display: none;
+    }
+  }
+}
