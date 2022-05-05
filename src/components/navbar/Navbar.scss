@@ -1,0 +1,35 @@
+
+
+
+.navbar-container {
+    background-color: rgb(19, 25, 33);
+
+
+    .navbar-up-section {
+        display: flex;
+        align-items: center;
+        height: 8vh;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        .navbar-up-logo-div {
+            margin-right: 1rem;
+
+            .navbar-logo-image {
+                width: 7rem;
+                
+            }
+        }
+
+        .navbar-up-location-div {
+            color: white;
+            display: flex;
+
+            .navbar-up-location-left {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
