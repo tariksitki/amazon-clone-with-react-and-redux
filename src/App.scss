@@ -1,11 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
 .App {
-  background-color: black;
-  margin: 2rem auto;
-  width: 75rem;
+
 
   .carousel {
+    margin: 2rem auto;
+    width: 75rem;
     img {
       height: 40rem;
     }
