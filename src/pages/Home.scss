@@ -1,0 +1,79 @@
+@import "~bootstrap/scss/bootstrap";
+
+.carousel {
+  margin: 2rem auto;
+  width: 75rem;
+  img {
+    height: 40rem;
+  }
+  .carousel-control-next {
+    height: 15rem;
+    width: 5rem;
+    .carousel-control-next-icon {
+      background-color: inherit;
+      color: black;
+    }
+  }
+  .carousel-control-prev {
+    height: 15rem;
+    width: 5rem;
+    .carousel-control-prev-icon {
+      background-color: inherit;
+      color: black;
+    }
+  }
+
+  .carousel-caption {
+    background-color: initial;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding: 0 1rem;
+    .card-group {
+      background-color: inherit;
+      gap: 3rem;
+      justify-content: flex-end;
+
+      .card {
+        //   margin-top: 10rem ;
+        text-align: center;
+        padding: 0rem;
+        max-height: max-content;
+        width: 15rem;
+
+        .card-title {
+          background-color: white;
+        }
+
+        .img-grid {
+          background-color: initial;
+          width: 90%;
+          min-height: 15rem;
+          margin: auto;
+          margin-bottom: 1rem;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          justify-content: flex-end;
+          .img-grid-item {
+            margin-top: 1rem;
+            background-color: initial;
+            p {
+              background-color: initial;
+            }
+          }
+        }
+
+        .card-img-top {
+          width: 90%;
+          height: 17rem;
+          margin: auto;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+  .carousel-indicators {
+    display: none;
+    background-color: aqua;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, CardGroup, Carousel, Row, Col } from "react-bootstrap/";
+import "./Home.scss"
 
 function Home() {
   return (
