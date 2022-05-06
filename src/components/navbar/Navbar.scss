@@ -4,7 +4,6 @@
 .navbar-container {
     background-color: rgb(19, 25, 33);
 
-
     .navbar-up-section {
         display: flex;
         align-items: center;
@@ -14,10 +13,8 @@
 
         .navbar-up-logo-div {
             margin-right: 1rem;
-
             .navbar-logo-image {
-                width: 7rem;
-                
+                width: 6rem; 
             }
         }
 
@@ -29,7 +26,105 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
             }
+
+            .navbar-up-location-right {
+                height: 3rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                span {
+                    font-size: 0.7rem;
+                    color: rgb(219, 219, 219);
+                }
+                
+            }
+        }
+        .navbar-up-input-container {
+            display: flex;
+
+            width: 45%;
+            height: 2.5rem;
+            align-items: center;
+            justify-content: space-between;
+
+            input {
+                height: 100%;
+                width: 92%;
+                border: none;
+                outline: none;
+                padding-left: 1rem;
+            }
+            
+            button {
+                width: 8%;
+                height: 100%;
+                background-color: #f3a847;
+                border: none;
+                font-size: 1.4rem;
+                border-radius: 0 0.3rem 0.3rem 0;
+            }
+        }
+
+        .navbar-up-orders-div {
+            color: white;
+            margin-left: 1.5rem;
+            line-height: 1.1rem;
+        }
+
+        .navbar-up-shopping-div {
+            color: white;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            margin-left: 1.5rem;
+
+           .navbar-up-shopping-div-inner {
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: center;
+
+               .shopping-count {
+                line-height: 0.4rem;
+                color: #f3a847;
+                font-size: 1.1rem;
+                font-weight: 600;
+            }
+           }
+           .shopping-title {
+               line-height: 1rem;
+           }
+        }
+    }
+
+
+
+
+
+
+
+
+    .navbar-down-section {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(35, 47, 62);
+
+        .navbar-down-section-left {
+            display: flex;
+            align-items: center;
+
+            .navbar-down-div {
+                margin-right: 1.5rem;
+            }
+        }
+
+        .navbar-down-section-right {
+            margin-right: 1.5rem;
+            font-size: 1.1rem;
         }
     }
 }
